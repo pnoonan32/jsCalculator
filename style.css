@@ -1,0 +1,68 @@
+#container {
+    background: lightskyblue;
+    height: 450px;
+    width: 300px;
+    border-radius: 8px;
+    position: relative;
+    top: 100px;
+    left: 40%;
+}
+
+.screen {
+    background: whitesmoke;
+    width: 270px;
+    height: 60px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+
+.screen input {
+    position: relative;
+    top: 3px;
+    left: 2px;
+    height: 56px;
+    width: 266px;
+    color: black;
+    background: linear-gradient(#52bab3, pink);
+    font-size: 25px;
+    text-align: right;
+}
+
+.btns {
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+
+.button {
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.button.black {
+    color: white;
+    background: black;
+    border-bottom: 2px solid #647489;
+    border-top: 2px black;
+}
+
+.button.silver {
+    color: white;
+    background: #647489;
+    border-bottom: 2px solid black;
+}
+
+.button.red {
+    color: white;
+    background: red;
+    border-bottom: 2px solid #647489;
+}
+
+p {
+    line-height: 20px;
+}
